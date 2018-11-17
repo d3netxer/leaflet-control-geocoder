@@ -127,6 +127,7 @@ var Nominatim = {
             q: query,
             limit: 5,
             format: 'json',
+            polygon_geojson: 1,
             addressdetails: 1
           },
           this.options.geocodingQueryParams
